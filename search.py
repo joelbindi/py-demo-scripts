@@ -12,5 +12,5 @@ fhand = open('mbox-short.txt')
 
 for line in fhand: 
 	line = line.strip()
-	if re.search('From: ', line) >= 0:
+	if re.findall('From: ', line) >= 0:
 		print line
