@@ -1,3 +1,4 @@
+import re as re
 text = ''
 word = ''
 
