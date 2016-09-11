@@ -12,3 +12,6 @@ tags = soup('a')
 
 for tag in tags:
 	print tag.get('href',None)
+
+x = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+type(x)

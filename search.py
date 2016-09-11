@@ -12,6 +12,7 @@ for line in fhand:
 
 for line in fhand: 
 	line = line.strip()
+<<<<<<< HEAD
 	if re.search('^X-', line) >= 0:
 		print line
 
@@ -22,3 +23,7 @@ print y
 x = 'From: Using the : character'
 y = re.findall('\$', x)
 print y
+=======
+	if re.findall('From: ', line) >= 0:
+		print line
+>>>>>>> 8045e4c3f9bacfd3fc00a7fc477eb7c418389bdd

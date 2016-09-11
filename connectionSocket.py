@@ -3,6 +3,7 @@ import socket
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 mysock.connect(('www.py4inf.com', 80))
 
+<<<<<<< HEAD
 mysock.send('GET http://www.pythonlearn.com/code/intro-short.txt HTTP/1.0\n\n')
 
 while True:
@@ -11,3 +12,6 @@ while True:
 		break
 	print data
 mysock.close()
+=======
+print mysock
+>>>>>>> 8045e4c3f9bacfd3fc00a7fc477eb7c418389bdd
